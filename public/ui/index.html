@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Common Clipboard V 1.0
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 header-title">
+                <h1 class="welcome-header">
+                    Clipboard-sync
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid main-input">
+        <div class="row">
+            <div class="col-sm-9">
+                <textarea class="form-control content-field" placeholder="Paste your copied content here" id="data"></textarea>
+            </div>
+            <div class="col-sm-3 button-div">
+                <input type="button" class="btn btn-success sync-button" value="Sync" id="sync">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 clipboard-history">
+                <h2 class="welcome-header">
+                    Clipboard history
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-hover table-dark table-div">
+                    <thead>
+                        <tr>
+                            <th>
+                                Content
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../script/script.js"></script>
+</body>
+
+</html>

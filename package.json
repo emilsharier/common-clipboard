@@ -1,0 +1,16 @@
+{
+  "name": "common-clipboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emil Sharier",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^8.12.1",
+    "jquery": "^3.5.1"
+  }
+}
